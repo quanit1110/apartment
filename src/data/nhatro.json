@@ -1,0 +1,118 @@
+{
+    "apartments": [
+        {
+            "id": 1,
+            "name": "Nhà trọ TSN",
+            "address": "84/18 Tân Sơn Nhì",
+            "phone": "099999999",
+            "lanlordPhone": "099999999",
+            "tenantName": "Pham CC",
+            "landlordName": "Nguyen thi pho",
+            "taxNumber": "TSN-0222025330",
+            "totalRooms": "10",
+            "currentRoomAvailable": "0",
+            "rentalDate": "01/01/2022",
+            "rentalPeriod": "5 năm",
+            "enable": true,
+            "rentAmount": "10000000",
+            "imageUrls": [
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Nhà trọ Hoàng Đạt",
+            "address": "84/18 Tân Sơn Nhì",
+            "phone": "099999999",
+            "lanlordPhone": "099999999",
+            "tenantName": "Pham CC",
+            "landlordName": "Nguyen thi pho",
+            "taxNumber": "TSN-0222025330",
+            "totalRooms": "10",
+            "currentRoomAvailable": "0",
+            "rentalDate": "",
+            "rentalPeriod": "",
+            "enable": true,
+            "rentAmount": "10000000",
+            "imageUrls": [
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuA4rYDuDP1mG-5HYGu_JMeNWvPqo6UWiG9ZLMQVC2bL05Kr9H61T81UMkonokOE9cXDNrZBoM27cS_wVNz8y6BFTVNcuhYmXxbE2AqOJIKtyafXl9ZJ7_CLmerwsTAdQ46q-Tyu8EEF0RrFLopXAmLG2AO9Lm0XOn3QcEseiMuSJqn7B1fbCjBmAyi08oHIbxygPEUugBgOdoKr_LinqY1vJV1hkDnzmQTMYcKolJqbweMOLFts9JPoNDCJSql86a2l2VWYNq_7Ufb8"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Nhà trọ Tốt",
+            "address": "84/18 Tân Sơn Nhì",
+            "phone": "099999999",
+            "lanlordPhone": "099999999",
+            "tenantName": "Pham CC",
+            "landlordName": "Nguyen thi pho",
+            "taxNumber": "TSN-0222025330",
+            "totalRooms": "10",
+            "currentRoomAvailable": "0",
+            "rentalDate": "",
+            "rentalPeriod": "",
+            "enable": true,
+            "rentAmount": "10000000",
+            "imageUrls": [
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuAy3HVKGWlIcgZhrSLtA_hiZQHvg3Pj-6Z5AyAhxXAIds6RKgnNtVWdUKSWQ2POuYyXmmZt4t6dOICCzgv55vAFNJeVfDQjwpkZ2BZBaPIy_Lt2uNjZw0njj_2j9K4mm0rnfq6X80v-yuapeycH90A4iizRzyvbmOour_g3244-qn3NF8Nc43MA_1kLiXGjXHW0pb6JFkUgOnuVAP1PCfuKdbQo2IqxNZZF5rFzQCyqpPWDDSy5ipxLn7mS2D-FgU8C2MHYI7JZ58SA"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Nhà trọ sạch đẹp",
+            "address": "84/18 Tân Sơn Nhì",
+            "phone": "099999999",
+            "lanlordPhone": "099999999",
+            "tenantName": "Pham CC",
+            "landlordName": "Nguyen thi pho",
+            "taxNumber": "TSN-0222025330",
+            "totalRooms": "10",
+            "currentRoomAvailable": "0",
+            "rentalDate": "",
+            "rentalPeriod": "",
+            "enable": true,
+            "rentAmount": "10000000",
+            "imageUrls": [
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuBXNgyeTDblg-NPbQXZEQ7WW8bKU-LR6Ma_5yInQbL3U0LroMaATCtNkbi2I2fEpjsqHVB3p4H6a3uMvc8iUPOmd6KHMNQWhuwDTfYyj4-O_3e6e9AAjd5bu5S7WEMWOtDvGOLxyx72Sb-c5S_l9c2uaG8QmnVJw4QX2EM7ZuROQ3bRbCm7OW2CBxcaF7vNRR25OtWtivKLlWY4pM9WY388AYNxC65kjbYrdZ3VXGA6v54XaPAW73k-mNsReMoZ3T-FTNvI49-d8-sK"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Nhà trọ TSN",
+            "address": "84/18 Tân Sơn Nhì",
+            "phone": "099999999",
+            "lanlordPhone": "099999999",
+            "tenantName": "Pham CC",
+            "landlordName": "Nguyen thi pho",
+            "taxNumber": "TSN-0222025330",
+            "totalRooms": "10",
+            "currentRoomAvailable": "0",
+            "rentalDate": "",
+            "rentalPeriod": "",
+            "enable": true,
+            "rentAmount": "10000000",
+            "imageUrls": [
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuDKm7Xi1MR9p53-lJWT2p_6X5By032QZ4hotD26NG88gK8NFlskvXkldLL-dQQcw5luGVxHbNPMFI-3eKzYly9_JEZtd5qihL9QEZs1cNsBkHcFDYL5opZSOrB--b5pEd5D86ApJtZpzITgw71QaDOqAtaN5F191zivwXS06KnhVqBcdShYRLICkAXemN-0mYaTYTEvrrZSBVulva8cnRBL4HnPHYZWiqKoylRmFRiK1fWwUVFWOdd-h_cT7ESNUgNQtXgvZtWYZ6mK"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Nhà trọ TSN",
+            "address": "84/18 Tân Sơn Nhì",
+            "phone": "099999999",
+            "lanlordPhone": "099999999",
+            "tenantName": "Pham CC",
+            "landlordName": "Nguyen thi pho",
+            "taxNumber": "TSN-0222025330",
+            "totalRooms": "10",
+            "currentRoomAvailable": "0",
+            "rentalDate": "",
+            "rentalPeriod": "",
+            "enable": true,
+            "rentAmount": "10000000",
+            "imageUrls": [
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuC_ktcfxIWzjrf8r_-xEvjoC2-CmgsvIdmjt3ooyFcf-Zx9iAjEj481X1Lr8AeX9ypRU-cXl0DMZRv_1MFl-k5j66kDYPoAuM9iXTNHYGMs-0_Uh3DCFL1LtwKsgZQRl9eYtO__pHAwttK3wETIdMB-qVGagn2KdlGNrnpVhFmgWkl2Gv9kBlCyxxnhCF8zgInN0soYvEcjR-wxSViVoE4ZsRFH_PDswvvGkwurch4X0Tx-Bk4gG_mPXbf_RDOHtGZzCMu67LjAVuB_"
+            ]
+        }
+    ]
+}

@@ -1,15 +1,20 @@
 import React from 'react'
+import { Link, useParams } from 'react-router-dom'
 
-export const HomeApartment = () => {
+export const HomeApartment = ({ apartment }) => {
+  const { id } = useParams();
   return (
-        <article className="pb-5 hover:bg-orange-100 transition-colors rounded-3xl cursor-pointer">
-          <img
-            src="https://media.istockphoto.com/id/1454099860/vi/anh/m%E1%BA%B7t-ngo%C3%A0i-c%E1%BB%A7a-ng%C3%B4i-nh%C3%A0-nh%E1%BB%8F-b%E1%BA%B1ng-g%E1%BB%97-v%E1%BB%9Bi-n%E1%BB%81n-r%E1%BB%ABng.webp?b=1&s=170667a&w=0&k=20&c=WOuv0j9P3iU5OknGjgVPLepVLJtGnHcdzASDiuKpcdo="
-            alt=""
-            className="w-full rounded-3xl object-cover mb-3"
-          />
-          <h3 className="text-center font-semibold text-xl block">Phòng trọ tân sơn nhì</h3>
-          <p className="text-center text-gray-500">Đia chỉ: akkcnn</p>
-        </article>
+    <div className="flex flex-col gap-3 rounded-xl bg-white dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+      <div className="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="Exterior view of a modern boarding house" style={{ backgroundImage: `url(${apartment.imageUrls[0]})` }}></div>
+      <div className="p-4 flex flex-col flex-grow">
+        <p className="text-gray-900 dark:text-white text-lg font-bold leading-normal">{apartment.name}</p>
+        <p className="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-1">{apartment.address}</p>
+        <p className="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-2">Trống: <span className="font-semibold text-green-600 dark:text-green-400">2/10 phòng</span></p>
+        <Link to={`/apartment-detail/${apartment.id}`} state={{ apartment: apartment }} className="mt-4 flex w-full items-center justify-center gap-2 rounded-lg h-10 px-4 bg-primary/10 text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/20 transition-colors">
+          <span className="material-symbols-outlined text-lg">settings</span>
+          <span>Quản lý</span>
+        </Link>
+      </div>
+    </div>
   )
 }

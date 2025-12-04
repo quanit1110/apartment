@@ -1,0 +1,356 @@
+{
+    "apartmentDetail": {
+        "apartment": {
+            "id": 1,
+            "name": "Nhà trọ TSN",
+            "address": "84/18 Tân Sơn Nhì",
+            "phone": "099999999",
+            "lanlordPhone": "099999999",
+            "tenantName": "Pham CC",
+            "landlordName": "Nguyen thi pho",
+            "taxNumber": "TSN-0222025330",
+            "totalRooms": "10",
+            "currentRoomAvailable": "0",
+            "rentalDate": "01/01/2022",
+            "rentalPeriod": "5 năm",
+            "enable": true,
+            "rentAmount": "10000000",
+            "imageUrls": [
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8"
+            ]
+        },
+        "roomsInfo": [
+            {
+                "id": "Phong01",
+                "name": "Phòng 01",
+                "rentalPerson": [
+                    {
+                        "name": "Mai",
+                        "phone": "0909000221",
+                        "idNumber": "000125445",
+                        "address": "Vũng Tàu",
+                        "email": "",
+                        "rentalDate": "01/01/2025",
+                        "gender": "Nữ",
+                        "imageUrls": [
+                            "https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8"
+                        ]
+                    },
+                    {
+                        "name": "Hương",
+                        "phone": "0909000221",
+                        "idNumber": "000125445",
+                        "address": "Vũng Tàu",
+                        "rentalDate": "01/01/2025",
+                        "gender": "Nữ",
+                        "imageUrls": [
+                            "https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8"
+                        ]
+                    }
+                ],
+                "mainPhone": "0909123152",
+                "subPhone": [
+                    "012345688"
+                ],
+                "roomType": "Phòng ban công",
+                "roomArea": "30m2",
+                "isRoomAvailable": false,
+                "enable": true,
+                "priceRentalRoom": "3000000",
+                "currency": "VND",
+                "maxNumOfPeople": "3",
+                "currenNumOfPeople": "1",
+                "note": "Phòng ban công",
+                "roomInterior": "",
+                "rentalPeriodRoom": "12 tháng",
+                "rentalDate": "01/12/2025",
+                "leasyExpiryDate": "",
+                "electric": {
+                    "isFree": false,
+                    "priceElectric": "3500",
+                    "unitCode": "kWh",
+                    "electricFirst": "",
+                    "electricLast": ""
+                },
+                "water": {
+                    "isFree": false,
+                    "priceWater": "100000",
+                    "unitCode": "R",
+                    "waterFirst": "",
+                    "waterLast": ""
+                },
+                "internet": {
+                    "internetFee": "50000",
+                    "unitCode": "R",
+                    "isFree": false
+                },
+                "toilet": {
+                    "isFree": false,
+                    "unitCode": "R",
+                    "cleanFee": "20000"
+                },
+                "parking": {
+                    "isFree": true,
+                    "unitCode": "R",
+                    "parkingFee": ""
+                },
+                "roomDeposit": "3000000",
+                "serviceFee": "",
+                "otherFees": "",
+                "lastTotalMonth": "",
+                "imageUrls": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8"
+                ]
+            },
+            {
+                "id": "Phong02",
+                "name": "Phòng 02",
+                "rentalPerson": [
+                    {
+                        "name": "Mai",
+                        "phone": "0909000221",
+                        "idNumber": "000125445",
+                        "address": "Vũng Tàu",
+                        "rentalDate": "01/01/2025",
+                        "email": "",
+                        "gender": "Nữ",
+                        "imageUrls": [
+                            "https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8"
+                        ]
+                    },
+                    {
+                        "name": "Hương",
+                        "phone": "0909000221",
+                        "idNumber": "000125445",
+                        "address": "Vũng Tàu",
+                        "rentalDate": "01/01/2025",
+                        "email": "",
+                        "gender": "Nữ",
+                        "imageUrls": [
+                            "https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8"
+                        ]
+                    }
+                ],
+                "mainPhone": "0909123152",
+                "subPhone": [
+                    "012345688"
+                ],
+                "roomType": "Phòng ban công",
+                "roomArea": "30m2",
+                "isRoomAvailable": false,
+                "enable": true,
+                "priceRentalRoom": "3000000",
+                "currency": "VND",
+                "maxNumOfPeople": "3",
+                "currenNumOfPeople": "1",
+                "note": "Phòng ban công",
+                "roomInterior": "",
+                "rentalPeriodRoom": "12 tháng",
+                "rentalDate": "01/12/2025",
+                "leasyExpiryDate": "",
+                "electric": {
+                    "isFree": false,
+                    "priceElectric": "3500",
+                    "unitCode": "kWh",
+                    "electricFirst": "",
+                    "electricLast": ""
+                },
+                "water": {
+                    "isFree": false,
+                    "priceWater": "100000",
+                    "unitCode": "R",
+                    "waterFirst": "",
+                    "waterLast": ""
+                },
+                "internet": {
+                    "internetFee": "50000",
+                    "unitCode": "R",
+                    "isFree": false
+                },
+                "toilet": {
+                    "isFree": false,
+                    "unitCode": "R",
+                    "cleanFee": "20000"
+                },
+                "parking": {
+                    "isFree": true,
+                    "unitCode": "R",
+                    "parkingFee": ""
+                },
+                "roomDeposit": "3000000",
+                "serviceFee": "",
+                "otherFees": "",
+                "lastTotalMonth": "",
+                "imageUrls": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8"
+                ]
+            },
+            {
+                "id": "Phong03",
+                "name": "Phòng 04",
+                "rentalPerson": [
+                    {
+                        "name": "Mai",
+                        "phone": "0909000221",
+                        "idNumber": "000125445",
+                        "address": "Vũng Tàu",
+                        "rentalDate": "01/01/2025",
+                        "email": "",
+                        "gender": "Nữ",
+                        "imageUrls": [
+                            "https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8"
+                        ]
+                    },
+                    {
+                        "name": "Hương",
+                        "phone": "0909000221",
+                        "idNumber": "000125445",
+                        "address": "Vũng Tàu",
+                        "email": "",
+                        "rentalDate": "01/01/2025",
+                        "gender": "Nữ",
+                        "imageUrls": [
+                            "https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8"
+                        ]
+                    }
+                ],
+                "mainPhone": "0909123152",
+                "subPhone": [
+                    "012345688"
+                ],
+                "roomType": "Phòng ban công",
+                "roomArea": "30m2",
+                "isRoomAvailable": false,
+                "enable": true,
+                "priceRentalRoom": "3000000",
+                "currency": "VND",
+                "maxNumOfPeople": "3",
+                "currenNumOfPeople": "1",
+                "note": "Phòng ban công",
+                "roomInterior": "",
+                "rentalPeriodRoom": "12 tháng",
+                "rentalDate": "01/12/2025",
+                "leasyExpiryDate": "",
+                "electric": {
+                    "isFree": false,
+                    "priceElectric": "3500",
+                    "unitCode": "kWh",
+                    "electricFirst": "",
+                    "electricLast": ""
+                },
+                "water": {
+                    "isFree": false,
+                    "priceWater": "100000",
+                    "unitCode": "R",
+                    "waterFirst": "",
+                    "waterLast": ""
+                },
+                "internet": {
+                    "internetFee": "50000",
+                    "unitCode": "R",
+                    "isFree": false
+                },
+                "toilet": {
+                    "isFree": false,
+                    "unitCode": "R",
+                    "cleanFee": "20000"
+                },
+                "parking": {
+                    "isFree": true,
+                    "unitCode": "R",
+                    "parkingFee": ""
+                },
+                "roomDeposit": "3000000",
+                "serviceFee": "",
+                "otherFees": "",
+                "lastTotalMonth": "",
+                "imageUrls": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8"
+                ]
+            },
+            {
+                "id": "Phong04",
+                "name": "Phòng 04",
+                "rentalPerson": [
+                    {
+                        "name": "Mai",
+                        "phone": "0909000221",
+                        "idNumber": "000125445",
+                        "address": "Vũng Tàu",
+                        "rentalDate": "01/01/2025",
+                        "email": "",
+                        "gender": "Nữ",
+                        "imageUrls": [
+                            "https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8"
+                        ]
+                    },
+                    {
+                        "name": "Hương",
+                        "phone": "0909000221",
+                        "idNumber": "000125445",
+                        "address": "Vũng Tàu",
+                        "rentalDate": "01/01/2025",
+                        "email": "",
+                        "gender": "Nữ",
+                        "imageUrls": [
+                            "https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8"
+                        ]
+                    }
+                ],
+                "mainPhone": "0909123152",
+                "subPhone": [
+                    "012345688"
+                ],
+                "roomType": "Phòng ban công",
+                "roomArea": "30m2",
+                "isRoomAvailable": false,
+                "enable": true,
+                "priceRentalRoom": "3000000",
+                "currency": "VND",
+                "maxNumOfPeople": "3",
+                "currenNumOfPeople": "1",
+                "note": "Phòng ban công",
+                "roomInterior": "",
+                "rentalPeriodRoom": "12 tháng",
+                "rentalDate": "01/12/2025",
+                "leasyExpiryDate": "",
+                "electric": {
+                    "isFree": false,
+                    "priceElectric": "3500",
+                    "unitCode": "kWh",
+                    "electricFirst": "",
+                    "electricLast": ""
+                },
+                "water": {
+                    "isFree": false,
+                    "priceWater": "100000",
+                    "unitCode": "R",
+                    "waterFirst": "",
+                    "waterLast": ""
+                },
+                "internet": {
+                    "internetFee": "50000",
+                    "unitCode": "R",
+                    "isFree": false
+                },
+                "toilet": {
+                    "isFree": false,
+                    "unitCode": "R",
+                    "cleanFee": "20000"
+                },
+                "parking": {
+                    "isFree": true,
+                    "unitCode": "R",
+                    "parkingFee": ""
+                },
+                "roomDeposit": "3000000",
+                "serviceFee": "",
+                "otherFees": "",
+                "lastTotalMonth": "",
+                "imageUrls": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8"
+                ]
+            }
+        ]
+    }
+}

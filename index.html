@@ -1,13 +1,281 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apartment</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>MotelManager - Trang chủ</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    rel="stylesheet" />
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+    }
+  </style>
+  <title>Apartment</title>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#1973f0",
+            "background-light": "#f6f7f8",
+            "background-dark": "#101822",
+          },
+          fontFamily: {
+            "display": ["Inter", "sans-serif"]
+          },
+          borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+        },
+      },
+    }
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>
+
+<!-- <!DOCTYPE html>
+
+<html class="light" lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>MotelManager - Trang chủ</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    rel="stylesheet" />
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+    }
+  </style>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#1973f0",
+            "background-light": "#f6f7f8",
+            "background-dark": "#101822",
+          },
+          fontFamily: {
+            "display": ["Inter", "sans-serif"]
+          },
+          borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+        },
+      },
+    }
+  </script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+  <div id="root">
+    <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-full max-w-6xl flex-1 px-4 sm:px-6 lg:px-8">
+            <header
+              class="flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200 dark:border-gray-700 px-4 sm:px-6 py-4 bg-background-light dark:bg-background-dark sticky top-0 z-10">
+              <div class="flex items-center gap-4 text-gray-900 dark:text-white">
+                <div class="size-6 text-primary">
+                  <svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path>
+                  </svg>
+                </div>
+                <h2 class="text-xl font-bold leading-tight tracking-[-0.015em]">MotelManager</h2>
+              </div>
+              <div class="hidden md:flex flex-1 justify-center items-center gap-9">
+                <a class="text-primary text-sm font-bold leading-normal border-b-2 border-primary pb-1" href="#">Trang
+                  chủ</a>
+                <a class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors text-sm font-medium leading-normal"
+                  href="#">Danh sách nhà trọ</a>
+                <a class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors text-sm font-medium leading-normal"
+                  href="#">Hóa đơn</a>
+                <a class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors text-sm font-medium leading-normal"
+                  href="#">Báo cáo</a>
+              </div>
+              <div class="flex items-center gap-2">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+                  <span class="truncate">Đăng nhập</span>
+                </button>
+                <button
+                  class="hidden sm:flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
+                  <span class="truncate">Đăng ký</span>
+                </button>
+              </div>
+            </header>
+            <main class="flex-grow">
+              <div class="flex flex-wrap justify-between items-center gap-4 p-4 sm:p-6 lg:p-8">
+                <div class="flex flex-col gap-2">
+                  <h1 class="text-gray-900 dark:text-white text-4xl font-black leading-tight tracking-[-0.033em]">Chào
+                    mừng trở lại!</h1>
+                  <p class="text-gray-500 dark:text-gray-400 text-base font-normal leading-normal">Đây là danh sách các
+                    nhà trọ của bạn.</p>
+                </div>
+                <button
+                  class="flex items-center justify-center gap-2 min-w-[84px] cursor-pointer rounded-lg h-11 px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+                  <span class="material-symbols-outlined text-xl">add</span>
+                  <span class="truncate">Thêm nhà trọ</span>
+                </button>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4 sm:p-6 lg:p-8">
+                <div
+                  class="flex flex-col gap-3 rounded-xl bg-white dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                  <div class="w-full bg-center bg-no-repeat aspect-video bg-cover"
+                    data-alt="Exterior view of a modern boarding house"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8");'>
+                  </div>
+                  <div class="p-4 flex flex-col flex-grow">
+                    <p class="text-gray-900 dark:text-white text-lg font-bold leading-normal">Nhà trọ An Bình</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-1">123 Đường ABC,
+                      Quận 1, TP.HCM</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-2">Trống: <span
+                        class="font-semibold text-green-600 dark:text-green-400">2/10 phòng</span></p>
+                    <button
+                      class="mt-4 flex w-full items-center justify-center gap-2 rounded-lg h-10 px-4 bg-primary/10 text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/20 transition-colors">
+                      <span class="material-symbols-outlined text-lg">settings</span>
+                      <span>Quản lý</span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col gap-3 rounded-xl bg-white dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                  <div class="w-full bg-center bg-no-repeat aspect-video bg-cover"
+                    data-alt="A cozy room inside a boarding house"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA4rYDuDP1mG-5HYGu_JMeNWvPqo6UWiG9ZLMQVC2bL05Kr9H61T81UMkonokOE9cXDNrZBoM27cS_wVNz8y6BFTVNcuhYmXxbE2AqOJIKtyafXl9ZJ7_CLmerwsTAdQ46q-Tyu8EEF0RrFLopXAmLG2AO9Lm0XOn3QcEseiMuSJqn7B1fbCjBmAyi08oHIbxygPEUugBgOdoKr_LinqY1vJV1hkDnzmQTMYcKolJqbweMOLFts9JPoNDCJSql86a2l2VWYNq_7Ufb8");'>
+                  </div>
+                  <div class="p-4 flex flex-col flex-grow">
+                    <p class="text-gray-900 dark:text-white text-lg font-bold leading-normal">Nhà trọ Hạnh Phúc</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-1">456 Đường XYZ,
+                      Quận 2, TP.HCM</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-2">Trống: <span
+                        class="font-semibold text-green-600 dark:text-green-400">1/15 phòng</span></p>
+                    <button
+                      class="mt-4 flex w-full items-center justify-center gap-2 rounded-lg h-10 px-4 bg-primary/10 text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/20 transition-colors">
+                      <span class="material-symbols-outlined text-lg">settings</span>
+                      <span>Quản lý</span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col gap-3 rounded-xl bg-white dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                  <div class="w-full bg-center bg-no-repeat aspect-video bg-cover"
+                    data-alt="Front yard of a residential building"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAy3HVKGWlIcgZhrSLtA_hiZQHvg3Pj-6Z5AyAhxXAIds6RKgnNtVWdUKSWQ2POuYyXmmZt4t6dOICCzgv55vAFNJeVfDQjwpkZ2BZBaPIy_Lt2uNjZw0njj_2j9K4mm0rnfq6X80v-yuapeycH90A4iizRzyvbmOour_g3244-qn3NF8Nc43MA_1kLiXGjXHW0pb6JFkUgOnuVAP1PCfuKdbQo2IqxNZZF5rFzQCyqpPWDDSy5ipxLn7mS2D-FgU8C2MHYI7JZ58SA");'>
+                  </div>
+                  <div class="p-4 flex flex-col flex-grow">
+                    <p class="text-gray-900 dark:text-white text-lg font-bold leading-normal">Nhà trọ Tương Lai</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-1">789 Đường KLM,
+                      Quận 3, TP.HCM</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-2">Trống: <span
+                        class="font-semibold text-green-600 dark:text-green-400">5/20 phòng</span></p>
+                    <button
+                      class="mt-4 flex w-full items-center justify-center gap-2 rounded-lg h-10 px-4 bg-primary/10 text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/20 transition-colors">
+                      <span class="material-symbols-outlined text-lg">settings</span>
+                      <span>Quản lý</span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col gap-3 rounded-xl bg-white dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                  <div class="w-full bg-center bg-no-repeat aspect-video bg-cover"
+                    data-alt="Modern apartment building in a city"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBXNgyeTDblg-NPbQXZEQ7WW8bKU-LR6Ma_5yInQbL3U0LroMaATCtNkbi2I2fEpjsqHVB3p4H6a3uMvc8iUPOmd6KHMNQWhuwDTfYyj4-O_3e6e9AAjd5bu5S7WEMWOtDvGOLxyx72Sb-c5S_l9c2uaG8QmnVJw4QX2EM7ZuROQ3bRbCm7OW2CBxcaF7vNRR25OtWtivKLlWY4pM9WY388AYNxC65kjbYrdZ3VXGA6v54XaPAW73k-mNsReMoZ3T-FTNvI49-d8-sK");'>
+                  </div>
+                  <div class="p-4 flex flex-col flex-grow">
+                    <p class="text-gray-900 dark:text-white text-lg font-bold leading-normal">Nhà trọ Cầu Giấy</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-1">101 Đường DEF,
+                      Quận Cầu Giấy, Hà Nội</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-2">Trống: <span
+                        class="font-semibold text-red-600 dark:text-red-400">0/12 phòng</span></p>
+                    <button
+                      class="mt-4 flex w-full items-center justify-center gap-2 rounded-lg h-10 px-4 bg-primary/10 text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/20 transition-colors">
+                      <span class="material-symbols-outlined text-lg">settings</span>
+                      <span>Quản lý</span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col gap-3 rounded-xl bg-white dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                  <div class="w-full bg-center bg-no-repeat aspect-video bg-cover"
+                    data-alt="A clean and simple apartment room"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDKm7Xi1MR9p53-lJWT2p_6X5By032QZ4hotD26NG88gK8NFlskvXkldLL-dQQcw5luGVxHbNPMFI-3eKzYly9_JEZtd5qihL9QEZs1cNsBkHcFDYL5opZSOrB--b5pEd5D86ApJtZpzITgw71QaDOqAtaN5F191zivwXS06KnhVqBcdShYRLICkAXemN-0mYaTYTEvrrZSBVulva8cnRBL4HnPHYZWiqKoylRmFRiK1fWwUVFWOdd-h_cT7ESNUgNQtXgvZtWYZ6mK");'>
+                  </div>
+                  <div class="p-4 flex flex-col flex-grow">
+                    <p class="text-gray-900 dark:text-white text-lg font-bold leading-normal">Nhà trọ Thanh Xuân</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-1">202 Đường GHI,
+                      Quận Thanh Xuân, Hà Nội</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-2">Trống: <span
+                        class="font-semibold text-green-600 dark:text-green-400">3/18 phòng</span></p>
+                    <button
+                      class="mt-4 flex w-full items-center justify-center gap-2 rounded-lg h-10 px-4 bg-primary/10 text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/20 transition-colors">
+                      <span class="material-symbols-outlined text-lg">settings</span>
+                      <span>Quản lý</span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col gap-3 rounded-xl bg-white dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                  <div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="View of a suburban house"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC_ktcfxIWzjrf8r_-xEvjoC2-CmgsvIdmjt3ooyFcf-Zx9iAjEj481X1Lr8AeX9ypRU-cXl0DMZRv_1MFl-k5j66kDYPoAuM9iXTNHYGMs-0_Uh3DCFL1LtwKsgZQRl9eYtO__pHAwttK3wETIdMB-qVGagn2KdlGNrnpVhFmgWkl2Gv9kBlCyxxnhCF8zgInN0soYvEcjR-wxSViVoE4ZsRFH_PDswvvGkwurch4X0Tx-Bk4gG_mPXbf_RDOHtGZzCMu67LjAVuB_");'>
+                  </div>
+                  <div class="p-4 flex flex-col flex-grow">
+                    <p class="text-gray-900 dark:text-white text-lg font-bold leading-normal">Nhà trọ Hoàng Mai</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-1">303 Đường JKL,
+                      Quận Hoàng Mai, Hà Nội</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-2">Trống: <span
+                        class="font-semibold text-green-600 dark:text-green-400">4/16 phòng</span></p>
+                    <button
+                      class="mt-4 flex w-full items-center justify-center gap-2 rounded-lg h-10 px-4 bg-primary/10 text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/20 transition-colors">
+                      <span class="material-symbols-outlined text-lg">settings</span>
+                      <span>Quản lý</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </main>
+            <footer
+              class="flex flex-col gap-6 px-5 py-10 text-center border-t border-gray-200 dark:border-gray-700 mt-10">
+              <div class="flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
+                <a class="text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors text-sm font-normal leading-normal"
+                  href="#">Về chúng tôi</a>
+                <a class="text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors text-sm font-normal leading-normal"
+                  href="#">Liên hệ</a>
+                <a class="text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors text-sm font-normal leading-normal"
+                  href="#">Điều khoản dịch vụ</a>
+                <a class="text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors text-sm font-normal leading-normal"
+                  href="#">Chính sách bảo mật</a>
+              </div>
+              <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">© 2024 MotelManager. All
+                rights reserved.</p>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html> -->

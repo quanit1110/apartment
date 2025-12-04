@@ -1,0 +1,92 @@
+{
+    "roomDetail": {
+        "id": "Phong01",
+        "name": "Phòng 01",
+        "rentalPerson": [
+            {
+                "name": "Mai",
+                "phone": "0909000221",
+                "idNumber": "000125445",
+                "address": "Vũng Tàu",
+                "rentalDate": "01/01/2025",
+                "email": "mai@gmail.com",
+                "gender": "Nữ",
+                "imageUrls": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuAFiiavGAaCYoFaVwwoIE8WzCo9Dn7Dmg8fW1QOCTbHHTzGN3MUcrF-UD-PcqmckIhsmvPcQdaZjKTJN1Asu9JmAjs_UHa-TtRBUIY6vCYs2XyIAR4WcqzmMMD5cyaQnmBgPTtVPUXgX5oXFGmlJfOZpA9ooaMbewyAOOe3gvbtE0UELeLVS1F5_qAvELL-DwmLbuT0UrFkTyb87MxGzxrzkCGJChbjFpmkpExjDmyazX2Kn869FVcgupni_pNxDTD-24FL-D0SXDTX"
+                ]
+            },
+            {
+                "name": "Hương",
+                "phone": "0909000221",
+                "idNumber": "000125445",
+                "address": "Vũng Tàu",
+                "rentalDate": "01/01/2025",
+                "email": "",
+                "gender": "Nữ",
+                "imageUrls": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuAFiiavGAaCYoFaVwwoIE8WzCo9Dn7Dmg8fW1QOCTbHHTzGN3MUcrF-UD-PcqmckIhsmvPcQdaZjKTJN1Asu9JmAjs_UHa-TtRBUIY6vCYs2XyIAR4WcqzmMMD5cyaQnmBgPTtVPUXgX5oXFGmlJfOZpA9ooaMbewyAOOe3gvbtE0UELeLVS1F5_qAvELL-DwmLbuT0UrFkTyb87MxGzxrzkCGJChbjFpmkpExjDmyazX2Kn869FVcgupni_pNxDTD-24FL-D0SXDTX"
+                ]
+            }
+        ],
+        "mainPhone": "0909123152",
+        "subPhone": [
+            "012345688"
+        ],
+        "roomType": "Phòng ban công",
+        "roomArea": "30m2",
+        "isRoomAvailable": false,
+        "enable": true,
+        "priceRentalRoom": "3000000",
+        "currency": "VND",
+        "maxNumOfPeople": "3",
+        "currenNumOfPeople": "1",
+        "note": "Phòng ban công",
+        "roomInterior": "",
+        "rentalPeriodRoom": "12 tháng",
+        "rentalDate": "01/12/2025",
+        "leasyExpiryDate": "",
+        "electric": {
+            "isFree": false,
+            "priceElectric": "3500",
+            "unitCode": "kWh",
+            "electricFirst": "",
+            "electricLast": ""
+        },
+        "water": {
+            "isFree": false,
+            "priceWater": "100000",
+            "unitCode": "M",
+            "waterFirst": "",
+            "waterLast": ""
+        },
+        "internet": {
+            "internetFee": "50000",
+            "unitCode": "R",
+            "isFree": false
+        },
+        "toilet": {
+            "isFree": false,
+            "unitCode": "R",
+            "cleanFee": "20000"
+        },
+        "parking": {
+            "isFree": true,
+            "unitCode": "C",
+            "parkingFee": ""
+        },
+        "roomDeposit": "3000000",
+        "serviceFee": "",
+        "otherFees": "",
+        "lastTotalMonth": "",
+        "imageUrls": [
+            "https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8"
+        ],
+        "policyInfo": {
+            "status": "IF",
+            "policyCode": "TSN-PH-001-2025",
+            "rentalDate": "01/01/2025",
+            "expiryDate": "31/12/2025",
+            "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAmD1PAT_I4a3MqXdljzTGxX_V_cIQjka-rJgkQZuKEbCaLKrsJWp39B785547obv01QmtTfg6tlSu2RK0hCciFLP03cVLr_N53IMvYUt0F3274Rg3t-s_ffdTpkHttZ4WiBr8LjGtzBaJOjAyXR9Y2X1o-RVxCR2q83oG4cgqaAZQPy1gSKg92DH7kIaUA28cmQSCY9_nHMapBJbb6hPJWO4XgNOhOe_zUNu9noSbhY27nkuYf9M90JT-X-uyWt434K9dx6DvZKGM8"
+        }
+    }
+}
